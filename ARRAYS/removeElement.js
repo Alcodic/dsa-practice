@@ -28,6 +28,8 @@
 //-------------------------------------------------------------------------------------------------------
 //-----------------------------------------------------------------------------------------------------
 
+//1) brute force approach
+
 function removeElement(nums, val) {
   let temp = [];
 
@@ -64,7 +66,7 @@ function removeElement(nums, val) {
 
 //---------------------------------------------------------------------------------
 
-//2) Intermediate approach
+//2) Intermediate approach (in-place shifting)(worst)
 
 function removeElement(nums, val) {
   let n = nums.length;
