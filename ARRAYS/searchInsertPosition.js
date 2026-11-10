@@ -3,15 +3,14 @@
 // You must write an algorithm with O(log n) runtime complexity.
 
 // Example 1:
-
 // Input: nums = [1,3,5,6], target = 5
 // Output: 2
-// Example 2:
 
+// Example 2:
 // Input: nums = [1,3,5,6], target = 2
 // Output: 1
-// Example 3:
 
+// Example 3:
 // Input: nums = [1,3,5,6], target = 7
 // Output: 4
 
@@ -97,6 +96,9 @@ console.log(searchInsertPositionBinaryIterative([1, 3, 5, 6], 2));
 console.log(searchInsertPositionBinaryIterative([1, 3, 5, 6], 7));
 console.log(searchInsertPositionBinaryIterative([1, 3, 5, 6], 0));
 
+// Time complexity : O(log n);
+//space complexity: O(1)
+
 //--------------------------------------------------------------------------------------------------
 
 // 3) Binary Search recursive
@@ -132,3 +134,6 @@ console.log(searchInsertPosition([1, 3, 5, 6], 5)); // 2
 console.log(searchInsertPosition([1, 3, 5, 6], 2)); // 1
 console.log(searchInsertPosition([1, 3, 5, 6], 7)); // 4
 console.log(searchInsertPosition([1, 3, 5, 6], 0)); // 0
+
+//Time Complexity : O(log n);
+// Space Complexity : O(log n);
